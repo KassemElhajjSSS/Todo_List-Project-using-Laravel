@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+    height: 100vh;
+    margin: 0;
+}
+
+.name, .Register h1, .Login h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.name, .Register h1, .Login h1 {
+    color: #007BFF;
+    padding: 10px;
+    border-radius: 6px; 
+    border: 2px solid #007BFF;
+    margin-bottom: 40px;
+}
+
+.ToDoList-card , .Register, .Login, .editTask{
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+
+.ToDoList-card input[type="text"], .Register input, .Login input, .editTask input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    box-sizing: border-box;
+}
+
+.AddTask, .Register button, .Login button, .editTask button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+
+    box-sizing: border-box;
+}
+
+.AddTask:hover {
+    background-color: #0056b3;
+}
+
+.Tasks {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.Tasks li {
+    background-color: #e9ecef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+
+    display: flex; 
+    justify-content: space-between;
+}
+
+.TaskIcons {
+    display: flex;
+    gap: 10px;
+}
+.TaskIcons i {
+    color: #007BFF;
+    cursor: pointer;
+}
+
+.TaskIcons i:hover {
+    color: #0056b3;
+}
+
+.MadeByBanner {
+    color: #ccc;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.Register form, .Login form{
+    display:grid;
+    gap: 10px;
+}
+
+.logout {
+    color: #007BFF;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
